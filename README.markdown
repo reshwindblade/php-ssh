@@ -70,7 +70,7 @@ When you define an authentication for a session, it will authenticate on connect
 $configuration = new Ssh\Configuration('myhost');
 $authentication = new Ssh\Authentication\Password('John', 's3cr3t');
 
-$session = new Session($configuration, $authentication);
+$session = new Ssh\Session($configuration, $authentication);
 ```
 
 The available authentication are:
